@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Support\Traits;
+namespace Avantinternet\Support\Traits;
 
 trait Imageable
 {
