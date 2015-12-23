@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Support;
+namespace Avantinternet\Support;
 
 class Stub
 {
@@ -88,7 +88,7 @@ class Stub
      */
     public function getPath()
     {
-        return static::$basePath.$this->path;
+        return static::getBasePath().$this->path;
     }
 
     /**
